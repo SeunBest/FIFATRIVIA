@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">FIFA TRIVIA</string>
+    <string name="_1">1.</string>
+    <string name="question_1">1. fifa world cup is the biggest football competition in the world</string>
+    <string name="radioButton1True">TRUE</string>
+    <string name="radioButton1False">FALSE</string>
+    <string name="question2">2. 2018 world cup was hosted by</string>
+    <string name="question3">3. select countries that have won the world cup</string>
+    <string name="question3Germany">Germany</string>
+    <string name="question3Israel">israel</string>
+    <string name="question3Italy">italy</string>
+    <string name="question4">4. which country hosted the first fifa world cup ?</string>
+    <string name="question4Spain">spain</string>
+    <string name="question4India">india</string>
+    <string name="question4Uruguay">uruguay</string>
+    <string name="question5">5. 2010 fifa world cup was won by</string>
+    <string name="question6">6. Which country won the 2002 world cup ?</string>
+    <string name="question6Brazil">brazil</string>
+    <string name="question6Chile">chile</string>
+    <string name="question6Egypt">EGYPT</string>
+    <string name="submitButton">submit</string>
+    <string name="question2Host">host</string>
+    <string name="question5Hint">winner</string>
+</resources>
