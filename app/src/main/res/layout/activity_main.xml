@@ -29,8 +29,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="75dp"
-                android:orientation="horizontal"
-                android:layout_marginStart="75dp">
+                android:layout_marginStart="75dp"
+                android:orientation="horizontal">
 
                 <RadioButton
                     android:id="@+id/trueRadioButton"
@@ -49,7 +49,6 @@
 
             </RadioGroup>
 
-
         </LinearLayout>
 
         <LinearLayout
@@ -65,16 +64,15 @@
                 android:textAllCaps="true"
                 android:textColor="#00ffff" />
 
-
             <EditText
                 android:id="@+id/russiaEditText"
                 android:layout_width="90dp"
                 android:layout_height="wrap_content"
+                android:hint="@string/question2Host"
                 android:inputType="text"
                 android:textAllCaps="true"
                 android:textColor="#00ffff"
-                android:textSize="15sp"
-                android:hint="@string/question2Host"/>
+                android:textSize="15sp" />
 
         </LinearLayout>
 
@@ -119,7 +117,6 @@
                     android:text="@string/question3Italy"
                     android:textAllCaps="true"
                     android:textColor="#00ffff" />
-
 
             </LinearLayout>
         </LinearLayout>
@@ -187,11 +184,11 @@
                 android:id="@+id/spainEditText"
                 android:layout_width="90dp"
                 android:layout_height="wrap_content"
+                android:hint="@string/question5Hint"
                 android:inputType="text"
                 android:textAllCaps="true"
                 android:textColor="#00ffff"
-                android:textSize="15sp"
-                android:hint="@string/question5Hint"/>
+                android:textSize="15sp" />
 
         </LinearLayout>
 
@@ -245,13 +242,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="130dp"
+            android:layout_marginStart="130dp"
             android:layout_marginTop="10dp"
             android:background="@layout/button"
             android:onClick="submit"
             android:text="@string/submitButton"
             android:textAllCaps="true"
-            android:textColor="#00ffff"
-            android:layout_marginStart="130dp" />
+            android:textColor="#00ffff" />
 
     </LinearLayout>
 
