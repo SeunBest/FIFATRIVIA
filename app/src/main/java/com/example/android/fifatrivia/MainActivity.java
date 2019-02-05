@@ -11,7 +11,6 @@ import android.widget.Toast;
 /**
  * This app quizzes a user about FIFA.
  */
-
 public class MainActivity extends AppCompatActivity {
 
     // Initializes yhe user's score to zero
@@ -35,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         EditText russiaText = findViewById(R.id.russiaEditText);
         String hostCountry = russiaText.getText().toString().toUpperCase();
 
-        // Get's the state of the radio buttons and stores them in a booleans
+        // Get's the state of the checkbox and stores them in a booleans
         CheckBox germanyWin = findViewById(R.id.germanyCheckBox);
         boolean isGermany = germanyWin.isChecked();
         CheckBox italyWin = findViewById(R.id.italyCheckBox);
